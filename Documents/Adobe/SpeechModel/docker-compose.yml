@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  speechmodel-api:
+    build: .
+    container_name: speechmodel-api
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./models:/app/models
+      - ./auds:/app/auds
+      - ./audProd:/app/audProd
+      - ./speeching:/app/speeching
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    networks:
+      - speechmodel-network
+
+networks:
+  speechmodel-network:
+    driver: bridge
