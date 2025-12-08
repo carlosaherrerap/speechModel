@@ -81,7 +81,7 @@ class AudioTranscriber:
                 cmd,
                 capture_output=True,
                 text=True,
-                timeout=600  # 10 minutos timeout
+                timeout=3600  # 60 minutos timeout para audios muy largos
             )
             
             if result.returncode != 0:

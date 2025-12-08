@@ -1,0 +1,273 @@
+🎤 Transcribiendo: amoramor.mp3
+speechmodel-api  | 🔄 Ejecutando: /app/whisper.cpp/build/bin/whisper-cli -m /app/models/ggml-large-v3.bin -f /app/auds/amoramor.mp3 -l...
+speechmodel-api  | ❌ Error en /transcribe: Timeout: El audio es muy largo o el proceso se colgó
+speechmodel-api  | 172.18.0.1 - - [08/Dec/2025 22:22:25] "POST /transcribe HTTP/1.1" 500 -
+speechmodel-api  | 172.18.0.1 - - [08/Dec/2025 23:07:09] "GET /health HTTP/1.1" 200 -
+speechmodel-api  |
+speechmodel-api  | 📥 Recibido: 20251205-111936-agt-19-466-920167995-46008106.mp3
+speechmodel-api  |
+speechmodel-api  | 🎤 Transcribiendo: 20251205-111936-agt-19-466-920167995-46008106.mp3
+speechmodel-api  | 🔄 Ejecutando: /app/whisper.cpp/build/bin/whisper-cli -m /app/models/ggml-large-v3.bin -f /app/auds/20251205-111936-agt-19-466-920167995-46008106.mp3 -l...
+speechmodel-api  |
+speechmodel-api  | 📥 Recibido: 20251205-111938-pre-13-468-912920263-48290703.mp3
+speechmodel-api  |
+speechmodel-api  | 🎤 Transcribiendo: 20251205-111938-pre-13-468-912920263-48290703.mp3
+speechmodel-api  | 🔄 Ejecutando: /app/whisper.cpp/build/bin/whisper-cli -m /app/models/ggml-large-v3.bin -f /app/auds/20251205-111938-pre-13-468-912920263-48290703.mp3 -l...
+speechmodel-api  |
+speechmodel-api  | 📥 Recibido: 20251205-111935-agt-19-466-904260040-71589844.mp3
+speechmodel-api  |
+speechmodel-api  | 🎤 Transcribiendo: 20251205-111935-agt-19-466-904260040-71589844.mp3
+speechmodel-api  | 🔄 Ejecutando: /app/whisper.cpp/build/bin/whisper-cli -m /app/models/ggml-large-v3.bin -f /app/auds/20251205-111935-agt-19-466-904260040-71589844.mp3 -l...
+speechmodel-api  | ❌ Error en transcripción: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  | ❌ Error en /transcribe: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  | 172.18.0.1 - - [08/Dec/2025 23:08:00] "POST /transcribe HTTP/1.1" 500 -
+speechmodel-api  |
+speechmodel-api  | 📥 Recibido: 20251205-111938-pre-13-468-944147116-43689819.mp3
+speechmodel-api  |
+speechmodel-api  | 🎤 Transcribiendo: 20251205-111938-pre-13-468-944147116-43689819.mp3
+speechmodel-api  | 🔄 Ejecutando: /app/whisper.cpp/build/bin/whisper-cli -m /app/models/ggml-large-v3.bin -f /app/auds/20251205-111938-pre-13-468-944147116-43689819.mp3 -l...
+speechmodel-api  | ❌ Error en transcripción: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  | ❌ Error en /transcribe: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  | 172.18.0.1 - - [08/Dec/2025 23:08:14] "POST /transcribe HTTP/1.1" 500 -
+speechmodel-api  |
+speechmodel-api  | 📥 Recibido: 20251205-111938-pre-13-468-950834581-43615444.mp3
+speechmodel-api  |
+speechmodel-api  | 🎤 Transcribiendo: 20251205-111938-pre-13-468-950834581-43615444.mp3
+speechmodel-api  | 🔄 Ejecutando: /app/whisper.cpp/build/bin/whisper-cli -m /app/models/ggml-large-v3.bin -f /app/auds/20251205-111938-pre-13-468-950834581-43615444.mp3 -l...
+speechmodel-api  | ❌ Error en transcripción: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  | ❌ Error en /transcribe: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  |
+speechmodel-api  | 📥 Recibido: 20251205-111938-pre-13-468-969037318-44941340.mp3
+speechmodel-api  |
+speechmodel-api  | 🎤 Transcribiendo: 20251205-111938-pre-13-468-969037318-44941340.mp3
+speechmodel-api  | 🔄 Ejecutando: /app/whisper.cpp/build/bin/whisper-cli -m /app/models/ggml-large-v3.bin -f /app/auds/20251205-111938-pre-13-468-969037318-44941340.mp3 -l...
+speechmodel-api  | 172.18.0.1 - - [08/Dec/2025 23:08:59] "POST /transcribe HTTP/1.1" 500 -
+speechmodel-api  | ❌ Error en transcripción: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  | ❌ Error en /transcribe: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | 172.18.0.1 - - [08/Dec/2025 23:09:31] "POST /transcribe HTTP/1.1" 500 -
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  |
+speechmodel-api  | 📥 Recibido: 20251205-111938-pre-13-468-980536325-15762805.mp3
+speechmodel-api  |
+speechmodel-api  | 🎤 Transcribiendo: 20251205-111938-pre-13-468-980536325-15762805.mp3
+speechmodel-api  | 🔄 Ejecutando: /app/whisper.cpp/build/bin/whisper-cli -m /app/models/ggml-large-v3.bin -f /app/auds/20251205-111938-pre-13-468-980536325-15762805.mp3 -l...
+speechmodel-api  | ❌ Error en transcripción: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  | ❌ Error en /transcribe: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  |
+speechmodel-api  | 📥 Recibido: 20251205-111938-pre-13-468-982696535-15740452.mp3
+speechmodel-api  |
+speechmodel-api  | 🎤 Transcribiendo: 20251205-111938-pre-13-468-982696535-15740452.mp3
+speechmodel-api  | 🔄 Ejecutando: /app/whisper.cpp/build/bin/whisper-cli -m /app/models/ggml-large-v3.bin -f /app/auds/20251205-111938-pre-13-468-982696535-15740452.mp3 -l...
+speechmodel-api  | 172.18.0.1 - - [08/Dec/2025 23:10:06] "POST /transcribe HTTP/1.1" 500 -
+speechmodel-api  | ❌ Error en transcripción: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  | ❌ Error en /transcribe: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | 172.18.0.1 - - [08/Dec/2025 23:10:35] "POST /transcribe HTTP/1.1" 500 -
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  |
+speechmodel-api  | 📥 Recibido: 20251205-111938-pre-13-468-994009226-46607818.mp3
+speechmodel-api  |
+speechmodel-api  | 🎤 Transcribiendo: 20251205-111938-pre-13-468-994009226-46607818.mp3
+speechmodel-api  | 🔄 Ejecutando: /app/whisper.cpp/build/bin/whisper-cli -m /app/models/ggml-large-v3.bin -f /app/auds/20251205-111938-pre-13-468-994009226-46607818.mp3 -l...
+speechmodel-api  | 172.18.0.1 - - [08/Dec/2025 23:11:23] "POST /transcribe HTTP/1.1" 500 -
+speechmodel-api  | ❌ Error en transcripción: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  | ❌ Error en /transcribe: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  |
+speechmodel-api  | 📥 Recibido: 20251205-111938-pre-19-466-907860115-40833799.mp3
+speechmodel-api  |
+speechmodel-api  | 🎤 Transcribiendo: 20251205-111938-pre-19-466-907860115-40833799.mp3
+speechmodel-api  | 🔄 Ejecutando: /app/whisper.cpp/build/bin/whisper-cli -m /app/models/ggml-large-v3.bin -f /app/auds/20251205-111938-pre-19-466-907860115-40833799.mp3 -l...
+speechmodel-api  | ❌ Error en transcripción: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | 172.18.0.1 - - [08/Dec/2025 23:12:02] "POST /transcribe HTTP/1.1" 500 -
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  | ❌ Error en /transcribe: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  |
+speechmodel-api  | 📥 Recibido: 20251205-111938-pre-19-466-916489052-22312412.mp3
+speechmodel-api  |
+speechmodel-api  | 🎤 Transcribiendo: 20251205-111938-pre-19-466-916489052-22312412.mp3
+speechmodel-api  | 🔄 Ejecutando: /app/whisper.cpp/build/bin/whisper-cli -m /app/models/ggml-large-v3.bin -f /app/auds/20251205-111938-pre-19-466-916489052-22312412.mp3 -l...
+speechmodel-api  | 172.18.0.1 - - [08/Dec/2025 23:12:38] "POST /transcribe HTTP/1.1" 500 -
+speechmodel-api  | ❌ Error en transcripción: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  | ❌ Error en /transcribe: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  | 172.18.0.1 - - [08/Dec/2025 23:13:45] "POST /transcribe HTTP/1.1" 500 -
+speechmodel-api  | ❌ Error en transcripción: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  | ❌ Error en /transcribe: whisper.cpp falló (code -9): whisper_init_from_file_with_params_no_state: loading model from '/app/models/ggml-large-v3.bin'
+speechmodel-api  | whisper_init_with_params_no_state: use gpu    = 1
+speechmodel-api  | whisper_init_with_params_no_state: flash attn = 1
+speechmodel-api  | whisper_init_with_params_no_state: gpu_device = 0
+speechmodel-api  | whisper_init_with_params_no_state: dtw        = 0
+speechmodel-api  | whisper_init_with_params_no_state: devices    = 1
+speechmodel-api  | whisper_init_with_params_no_state: backends   = 1
+speechmodel-api  | whisper_model_load: loading model
+speechmodel-api  | whisper_model_load: n_vocab       = 51866
+speechmodel-api  | whisper_model_load: n_audio_
+speechmodel-api  |
+speechmodel-api  | 📝 Transcripción:
+speechmodel-api  | Hola, buenos días.
