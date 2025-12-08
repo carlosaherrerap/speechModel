@@ -11,7 +11,7 @@ const colors = require('colors');
 const API_URL = 'http://localhost:5000';
 const AUD_PROD_DIR = path.join(__dirname, '..', 'audProd');
 const SPEECHING_DIR = path.join(__dirname, '..', 'speeching');
-const CONCURRENT_LIMIT = 3; // Archivos a procesar simultáneamente
+const CONCURRENT_LIMIT = 1; // Solo 1 archivo a la vez (modelo ocupa 3GB RAM)
 const SUPPORTED_FORMATS = ['.mp3', '.wav', '.m4a', '.ogg', '.flac', '.aac'];
 
 // Límite de concurrencia
