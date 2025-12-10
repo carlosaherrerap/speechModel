@@ -1,0 +1,26 @@
+{
+    "name": "speechmodel-frontend",
+    "version": "1.0.0",
+    "description": "Frontend para procesamiento en lote de transcripciones de audio",
+    "main": "transcribe-batch.js",
+    "scripts": {
+        "start": "node transcribe-batch.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "whisper",
+        "transcription",
+        "audio",
+        "spanish"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.2",
+        "cli-progress": "^3.12.0",
+        "colors": "^1.4.0",
+        "form-data": "^4.0.5",
+        "fs-extra": "^11.2.0",
+        "p-limit": "^4.0.0"
+    }
+}
